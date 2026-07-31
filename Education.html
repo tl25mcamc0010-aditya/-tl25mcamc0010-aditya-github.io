@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Education — Aditya</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="titlebar">
+  <button class="sidebar-toggle" id="sidebarToggle">☰ files</button>
+  <span class="tb-dot red"></span><span class="tb-dot yellow"></span><span class="tb-dot green"></span>
+  <span class="tb-title">aditya — portfolio — Visual Studio Code</span>
+  <span class="tb-spacer"></span>
+</div>
+
+<div class="tabbar">
+  <a class="tab" href="index.html" data-page="index.html"><span class="dot-icon" style="background:#4FD1C5"></span>welcome<span class="ext">.md</span></a>
+  <a class="tab" href="about.html" data-page="about.html"><span class="dot-icon" style="background:#79C0FF"></span>about<span class="ext">.js</span></a>
+  <a class="tab" href="skills.html" data-page="skills.html"><span class="dot-icon" style="background:#E3B341"></span>skills<span class="ext">.py</span></a>
+  <a class="tab" href="projects.html" data-page="projects.html"><span class="dot-icon" style="background:#F85149"></span>projects<span class="ext">.json</span></a>
+  <a class="tab active" href="education.html" data-page="education.html"><span class="dot-icon" style="background:#3FB950"></span>education<span class="ext">.log</span></a>
+  <a class="tab" href="contact.html" data-page="contact.html"><span class="dot-icon" style="background:#B78CF2"></span>contact<span class="ext">.sh</span></a>
+</div>
+
+<div class="body-shell">
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-label">Explorer</div>
+    <div class="tree-root">
+      <div class="tree-folder">📂 portfolio</div>
+      <div class="tree-files">
+        <a class="tree-file" href="index.html" data-page="index.html"><span class="dot-icon" style="background:#4FD1C5"></span>welcome.md</a>
+        <a class="tree-file" href="about.html" data-page="about.html"><span class="dot-icon" style="background:#79C0FF"></span>about.js</a>
+        <a class="tree-file" href="skills.html" data-page="skills.html"><span class="dot-icon" style="background:#E3B341"></span>skills.py</a>
+        <a class="tree-file" href="projects.html" data-page="projects.html"><span class="dot-icon" style="background:#F85149"></span>projects.json</a>
+        <a class="tree-file active" href="education.html" data-page="education.html"><span class="dot-icon" style="background:#3FB950"></span>education.log</a>
+        <a class="tree-file" href="contact.html" data-page="contact.html"><span class="dot-icon" style="background:#B78CF2"></span>contact.sh</a>
+      </div>
+    </div>
+    <div class="sidebar-footer">
+      <div><span class="k">user:</span> aditya</div>
+      <div><span class="k">role:</span> software engineer</div>
+      <div><span class="k">status:</span> pursuing MCA</div>
+    </div>
+  </aside>
+
+  <main class="editor">
+    <div class="editor-inner">
+
+      <div class="file-comment">
+        <span class="cm"># education.log</span><br>
+        <span class="cm">$ git log --oneline --graph</span>
+      </div>
+
+      <h1 class="page-title">Education</h1>
+      <p class="page-sub">academic history as a commit log</p>
+
+      <div class="commit-log">
+        <div class="commit">
+          <div class="commit-hash">commit a1b2c3d <span class="pill" style="margin-left:6px; padding:2px 8px; font-size:10.5px;">HEAD</span></div>
+          <div class="commit-msg">Master of Computer Applications (MCA)</div>
+          <div class="commit-meta">Vidya College of Science and Technology · status: in progress</div>
+        </div>
+      </div>
+
+      <div class="file-comment" style="margin-top:8px;">
+        <span class="cm">// add earlier commits (e.g. your bachelor's degree) here</span><br>
+        <span class="cm">// once you share the details.</span>
+      </div>
+
+    </div>
+  </main>
+</div>
+
+<div class="statusbar">
+  <span class="sb-item">⎇ main</span>
+  <span class="sb-item">🐍 Python</span>
+  <span class="sb-item">▲ Django</span>
+  <span class="sb-item">📱 Flutter</span>
+  <span class="sb-item sb-spacer" id="sb-msg">ready</span>
+  <span class="sb-item">UTF-8</span>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
