@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Aditya</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="titlebar">
+  <button class="sidebar-toggle" id="sidebarToggle">☰ files</button>
+  <span class="tb-dot red"></span><span class="tb-dot yellow"></span><span class="tb-dot green"></span>
+  <span class="tb-title">aditya — portfolio — Visual Studio Code</span>
+  <span class="tb-spacer"></span>
+</div>
+
+<div class="tabbar">
+  <a class="tab" href="index.html" data-page="index.html"><span class="dot-icon" style="background:#4FD1C5"></span>welcome<span class="ext">.md</span></a>
+  <a class="tab active" href="about.html" data-page="about.html"><span class="dot-icon" style="background:#79C0FF"></span>about<span class="ext">.js</span></a>
+  <a class="tab" href="skills.html" data-page="skills.html"><span class="dot-icon" style="background:#E3B341"></span>skills<span class="ext">.py</span></a>
+  <a class="tab" href="projects.html" data-page="projects.html"><span class="dot-icon" style="background:#F85149"></span>projects<span class="ext">.json</span></a>
+  <a class="tab" href="education.html" data-page="education.html"><span class="dot-icon" style="background:#3FB950"></span>education<span class="ext">.log</span></a>
+  <a class="tab" href="contact.html" data-page="contact.html"><span class="dot-icon" style="background:#B78CF2"></span>contact<span class="ext">.sh</span></a>
+</div>
+
+<div class="body-shell">
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-label">Explorer</div>
+    <div class="tree-root">
+      <div class="tree-folder">📂 portfolio</div>
+      <div class="tree-files">
+        <a class="tree-file" href="index.html" data-page="index.html"><span class="dot-icon" style="background:#4FD1C5"></span>welcome.md</a>
+        <a class="tree-file active" href="about.html" data-page="about.html"><span class="dot-icon" style="background:#79C0FF"></span>about.js</a>
+        <a class="tree-file" href="skills.html" data-page="skills.html"><span class="dot-icon" style="background:#E3B341"></span>skills.py</a>
+        <a class="tree-file" href="projects.html" data-page="projects.html"><span class="dot-icon" style="background:#F85149"></span>projects.json</a>
+        <a class="tree-file" href="education.html" data-page="education.html"><span class="dot-icon" style="background:#3FB950"></span>education.log</a>
+        <a class="tree-file" href="contact.html" data-page="contact.html"><span class="dot-icon" style="background:#B78CF2"></span>contact.sh</a>
+      </div>
+    </div>
+    <div class="sidebar-footer">
+      <div><span class="k">user:</span> aditya</div>
+      <div><span class="k">role:</span> software engineer</div>
+      <div><span class="k">status:</span> pursuing MCA</div>
+    </div>
+  </aside>
+
+  <main class="editor">
+    <div class="editor-inner">
+
+      <div class="file-comment">
+        <span class="cm">/**</span><br>
+        <span class="cm"> * about.js</span><br>
+        <span class="cm"> * @author Aditya</span><br>
+        <span class="cm"> */</span>
+      </div>
+
+      <h1 class="page-title">About Me</h1>
+      <p class="page-sub">a quick profile object, in code</p>
+
+      <div class="code-block">
+        <div class="line"><div class="code"><span class="kw">const</span> <span class="prop">profile</span> <span class="punct">= {</span></div></div>
+        <div class="line"><div class="code" style="padding-left:20px;"><span class="prop">name</span><span class="punct">:</span> <span class="str">"Aditya"</span><span class="punct">,</span></div></div>
+        <div class="line"><div class="code" style="padding-left:20px;"><span class="prop">role</span><span class="punct">:</span> <span class="str">"Software Engineer"</span><span class="punct">,</span></div></div>
+        <div class="line"><div class="code" style="padding-left:20px;"><span class="prop">status</span><span class="punct">:</span> <span class="str">"Pursuing MCA"</span><span class="punct">,</span></div></div>
+        <div class="line"><div class="code" style="padding-left:20px;"><span class="prop">institute</span><span class="punct">:</span> <span class="str">"Vidya College of Science and Technology"</span><span class="punct">,</span></div></div>
+        <div class="line"><div class="code" style="padding-left:20px;"><span class="prop">focus</span><span class="punct">:</span> <span class="punct">[</span><span class="str">"Python"</span><span class="punct">,</span> <span class="str">"Django"</span><span class="punct">,</span> <span class="str">"Flutter"</span><span class="punct">]</span><span class="punct">,</span></div></div>
+        <div class="line"><div class="code" style="padding-left:20px;"><span class="prop">interests</span><span class="punct">:</span> <span class="punct">[</span><span class="str">"full-stack apps"</span><span class="punct">,</span> <span class="str">"mobile dev"</span><span class="punct">,</span> <span class="str">"applied NLP"</span><span class="punct">]</span></div></div>
+        <div class="line"><div class="code"><span class="punct">};</span></div></div>
+      </div>
+
+      <div class="eyebrow">summary</div>
+      <p class="prose">
+        I'm <strong>Aditya</strong>, an MCA student who enjoys building things end-to-end — from a
+        <strong>Django</strong> API on the backend to a <strong>Flutter</strong> app on someone's phone.
+        I like projects that solve a real, everyday problem, and I'm currently exploring where
+        applied <strong>NLP</strong> can make software genuinely more useful rather than just clever.
+        Always looking for the next thing to build, break, and rebuild better.
+      </p>
+
+    </div>
+  </main>
+</div>
+
+<div class="statusbar">
+  <span class="sb-item">⎇ main</span>
+  <span class="sb-item">🐍 Python</span>
+  <span class="sb-item">▲ Django</span>
+  <span class="sb-item">📱 Flutter</span>
+  <span class="sb-item sb-spacer" id="sb-msg">ready</span>
+  <span class="sb-item">UTF-8</span>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
