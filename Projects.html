@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Aditya</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="titlebar">
+  <button class="sidebar-toggle" id="sidebarToggle">☰ files</button>
+  <span class="tb-dot red"></span><span class="tb-dot yellow"></span><span class="tb-dot green"></span>
+  <span class="tb-title">aditya — portfolio — Visual Studio Code</span>
+  <span class="tb-spacer"></span>
+</div>
+
+<div class="tabbar">
+  <a class="tab" href="index.html" data-page="index.html"><span class="dot-icon" style="background:#4FD1C5"></span>welcome<span class="ext">.md</span></a>
+  <a class="tab" href="about.html" data-page="about.html"><span class="dot-icon" style="background:#79C0FF"></span>about<span class="ext">.js</span></a>
+  <a class="tab" href="skills.html" data-page="skills.html"><span class="dot-icon" style="background:#E3B341"></span>skills<span class="ext">.py</span></a>
+  <a class="tab active" href="projects.html" data-page="projects.html"><span class="dot-icon" style="background:#F85149"></span>projects<span class="ext">.json</span></a>
+  <a class="tab" href="education.html" data-page="education.html"><span class="dot-icon" style="background:#3FB950"></span>education<span class="ext">.log</span></a>
+  <a class="tab" href="contact.html" data-page="contact.html"><span class="dot-icon" style="background:#B78CF2"></span>contact<span class="ext">.sh</span></a>
+</div>
+
+<div class="body-shell">
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-label">Explorer</div>
+    <div class="tree-root">
+      <div class="tree-folder">📂 portfolio</div>
+      <div class="tree-files">
+        <a class="tree-file" href="index.html" data-page="index.html"><span class="dot-icon" style="background:#4FD1C5"></span>welcome.md</a>
+        <a class="tree-file" href="about.html" data-page="about.html"><span class="dot-icon" style="background:#79C0FF"></span>about.js</a>
+        <a class="tree-file" href="skills.html" data-page="skills.html"><span class="dot-icon" style="background:#E3B341"></span>skills.py</a>
+        <a class="tree-file active" href="projects.html" data-page="projects.html"><span class="dot-icon" style="background:#F85149"></span>projects.json</a>
+        <a class="tree-file" href="education.html" data-page="education.html"><span class="dot-icon" style="background:#3FB950"></span>education.log</a>
+        <a class="tree-file" href="contact.html" data-page="contact.html"><span class="dot-icon" style="background:#B78CF2"></span>contact.sh</a>
+      </div>
+    </div>
+    <div class="sidebar-footer">
+      <div><span class="k">user:</span> aditya</div>
+      <div><span class="k">role:</span> software engineer</div>
+      <div><span class="k">status:</span> pursuing MCA</div>
+    </div>
+  </aside>
+
+  <main class="editor">
+    <div class="editor-inner">
+
+      <div class="file-comment">
+        <span class="cm">// projects.json</span><br>
+        <span class="cm">// 2 repositories</span>
+      </div>
+
+      <h1 class="page-title">Projects</h1>
+      <p class="page-sub">things I've built</p>
+
+      <div class="projects">
+
+        <div class="project-card">
+          <div class="project-head">
+            <span class="lang-dot" style="background:#4FD1C5;"></span>
+            <span class="project-name">fitness-app</span>
+          </div>
+          <p class="project-desc">
+            A mobile fitness application built with Flutter, backed by a Django REST API for
+            user accounts, workout tracking and progress data.
+          </p>
+          <div class="pill-row">
+            <span class="pill cyan">Flutter</span>
+            <span class="pill amber">Django</span>
+            <span class="pill">REST API</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-head">
+            <span class="lang-dot" style="background:#E3B341;"></span>
+            <span class="project-name">jobcheck-nlp</span>
+          </div>
+          <p class="project-desc">
+            An NLP-powered tool that analyses job postings and resumes to help match candidates
+            to relevant roles, built with Python and Django.
+          </p>
+          <div class="pill-row">
+            <span class="pill amber">Python</span>
+            <span class="pill amber">Django</span>
+            <span class="pill">NLP</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="file-comment" style="margin-top:4px;">
+        <span class="cm">/* TODO: swap in real descriptions, screenshots, and</span><br>
+        <span class="cm">   GitHub / live demo links once available. */</span>
+      </div>
+
+    </div>
+  </main>
+</div>
+
+<div class="statusbar">
+  <span class="sb-item">⎇ main</span>
+  <span class="sb-item">🐍 Python</span>
+  <span class="sb-item">▲ Django</span>
+  <span class="sb-item">📱 Flutter</span>
+  <span class="sb-item sb-spacer" id="sb-msg">ready</span>
+  <span class="sb-item">UTF-8</span>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
