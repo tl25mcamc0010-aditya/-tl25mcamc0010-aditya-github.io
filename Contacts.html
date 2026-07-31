@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Aditya</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="titlebar">
+  <button class="sidebar-toggle" id="sidebarToggle">☰ files</button>
+  <span class="tb-dot red"></span><span class="tb-dot yellow"></span><span class="tb-dot green"></span>
+  <span class="tb-title">aditya — portfolio — Visual Studio Code</span>
+  <span class="tb-spacer"></span>
+</div>
+
+<div class="tabbar">
+  <a class="tab" href="index.html" data-page="index.html"><span class="dot-icon" style="background:#4FD1C5"></span>welcome<span class="ext">.md</span></a>
+  <a class="tab" href="about.html" data-page="about.html"><span class="dot-icon" style="background:#79C0FF"></span>about<span class="ext">.js</span></a>
+  <a class="tab" href="skills.html" data-page="skills.html"><span class="dot-icon" style="background:#E3B341"></span>skills<span class="ext">.py</span></a>
+  <a class="tab" href="projects.html" data-page="projects.html"><span class="dot-icon" style="background:#F85149"></span>projects<span class="ext">.json</span></a>
+  <a class="tab" href="education.html" data-page="education.html"><span class="dot-icon" style="background:#3FB950"></span>education<span class="ext">.log</span></a>
+  <a class="tab active" href="contact.html" data-page="contact.html"><span class="dot-icon" style="background:#B78CF2"></span>contact<span class="ext">.sh</span></a>
+</div>
+
+<div class="body-shell">
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-label">Explorer</div>
+    <div class="tree-root">
+      <div class="tree-folder">📂 portfolio</div>
+      <div class="tree-files">
+        <a class="tree-file" href="index.html" data-page="index.html"><span class="dot-icon" style="background:#4FD1C5"></span>welcome.md</a>
+        <a class="tree-file" href="about.html" data-page="about.html"><span class="dot-icon" style="background:#79C0FF"></span>about.js</a>
+        <a class="tree-file" href="skills.html" data-page="skills.html"><span class="dot-icon" style="background:#E3B341"></span>skills.py</a>
+        <a class="tree-file" href="projects.html" data-page="projects.html"><span class="dot-icon" style="background:#F85149"></span>projects.json</a>
+        <a class="tree-file" href="education.html" data-page="education.html"><span class="dot-icon" style="background:#3FB950"></span>education.log</a>
+        <a class="tree-file active" href="contact.html" data-page="contact.html"><span class="dot-icon" style="background:#B78CF2"></span>contact.sh</a>
+      </div>
+    </div>
+    <div class="sidebar-footer">
+      <div><span class="k">user:</span> aditya</div>
+      <div><span class="k">role:</span> software engineer</div>
+      <div><span class="k">status:</span> pursuing MCA</div>
+    </div>
+  </aside>
+
+  <main class="editor">
+    <div class="editor-inner">
+
+      <div class="file-comment">
+        <span class="cm">#!/bin/bash</span><br>
+        <span class="cm"># contact.sh</span>
+      </div>
+
+      <h1 class="page-title">Get In Touch</h1>
+      <p class="page-sub">open to internships, projects &amp; opportunities</p>
+
+      <div class="contact-box">
+        <div class="cmd-line">
+          <span class="prompt">➜</span> <span>mail --to aditya</span>
+        </div>
+        <div class="cmd-line" style="margin-bottom:18px;">
+          <span class="fn" style="font-size:15px;">tl25mcamc0010@vidyaacademy.ac.in</span>
+          <button class="copy-btn" id="copyEmailBtn" data-email="tl25mcamc0010@vidyaacademy.ac.in">copy</button>
+        </div>
+        <a href="mailto:tl25mcamc0010@vidyaacademy.ac.in" class="btn btn-primary">Send Email</a>
+      </div>
+
+      <div class="file-comment" style="margin-top:22px;">
+        <span class="cm">// add GitHub / LinkedIn links here once you have them —</span><br>
+        <span class="cm">// just drop them in as extra buttons next to "Send Email".</span>
+      </div>
+
+    </div>
+  </main>
+</div>
+
+<div class="statusbar">
+  <span class="sb-item">⎇ main</span>
+  <span class="sb-item">🐍 Python</span>
+  <span class="sb-item">▲ Django</span>
+  <span class="sb-item">📱 Flutter</span>
+  <span class="sb-item sb-spacer" id="sb-msg">ready</span>
+  <span class="sb-item">UTF-8</span>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
